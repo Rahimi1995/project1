@@ -1,0 +1,386 @@
+.carousel{
+background-color: black;
+align-content: center;
+
+
+}
+.carouselhome{
+   
+}
+.homename{
+    float: right;
+}
+.homename .homenamearea{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.homename p{
+    /* font-size: 1.5rem; */
+    margin-top: -1vw;
+}
+
+.pricehome{
+    float: left;
+    margin-top: -1vw;
+    
+}
+.pricehome p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.shareitex {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.sharearea button{
+    text-decoration: none;
+    color: #fd5908;
+    background-color: #ffffff;
+    border: none;
+
+}
+.sharearea button:hover{
+color:#d44b07;
+}
+.shareitem{
+    background-color:#fd5908 ;
+    color: #ffff;
+    position: relative;
+    width: 2.5vw;
+    height: 15vh;
+    border-radius: 3px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.shareitem::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-bottom-color: #fd5908;
+    border-top: 0;
+    margin-left: -7px;
+    margin-top: -5px;
+  }
+  .shareitem a{
+      font-size: 1.3rem;
+
+  }
+  .Shateitemhover:hover{
+   /* background-color: #d44b07; */
+   background-color: #ffffff;
+   margin-top: 0.8vh;
+   /* transition: all 0.2s ease-in-out 0s; */
+ 
+  }
+  .shareitem:hover{
+      color:#fd5908 ;
+  }
+.contentarea{
+    width: 100vw;
+}
+.locationhomearea{
+    float: right;
+}
+.pricehomearea{
+    float: left;
+}
+.detailarea{
+  
+        background-color: rgb(255, 255, 255);
+        width: 50vw;
+        padding: 2vw;
+        margin-top: 3vh;
+        margin-right: -0.7vw;
+        box-shadow: 0px 4px 11.4px 0.6px rgba(0, 0, 0, 0.11);   
+}
+.detailarea h3{
+font-size: 1.5rem;
+}
+.planhomearea{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 11.4px 0.6px rgba(0, 0, 0, 0.11);
+    width: 50vw;
+    padding: 2vw;
+    margin-top: 3vh;
+    margin-right: -0.7vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height:70vh;
+    
+}
+.planhomearea h3{
+
+    position: absolute;
+    text-align: right;
+    left:44vw;
+    top:3vh;
+    font-size: 1.5rem;
+}
+.planhomearea img{
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  padding: auto;
+  top:10vh;
+  width: 35vw;
+  height: 50vh;
+  
+}
+
+/* =========================== */
+
+.btncarousel{
+    position: absolute;
+    top:2.5vw;
+    left: 9vw;
+    
+}
+.btncarousel a{
+    color:#dededf;
+}
+.btncarousel a:active{
+    color:#ffffff;
+    
+ }
+.btncarousel a:hover{
+    color:#ffffff;
+}
+
+
+.pricehomepage{
+    margin-top: 2vw;
+}
+
+
+
+/* ========================== */
+
+.detailarea ul{
+    list-style: none;
+}
+
+
+/* ===================== contentarea */
+.contactarea{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    padding: 2vw;
+    margin-top: 3vh;
+    margin-right: -0.7vw;
+    box-shadow: 0px 4px 11.4px 0.6px rgba(0, 0, 0, 0.11);
+}
+.contactarea h3{
+   font-size: 1.5rem;
+}
+.textcontactarea{
+  
+    margin-right: 3vw;
+    position: relative;
+    height: 15vh;
+   
+}
+
+.phonecontentarea{
+    position: absolute;
+    right: 9vw;
+    top:10.5vh;
+    
+}
+.gmailcontentarea{
+    position: absolute;
+    right: 19vw;
+    top:10.5vh;
+}
+.websitecontentarea{
+    position: absolute;
+    right: 35vw;
+    top:10.5vh;
+}
+.textcontactarea .namecontentarea{
+    position: absolute;
+    right: 10vw;
+    top:3vh;
+}
+.imagecontactarea img{
+    border-radius: 50%;
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    right: -1.5vw;
+}
+/* ============================== comment area */
+
+.commentarea{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    padding: 2vw;
+    margin-top: 3vh;
+    margin-right: -0.7vw;
+    box-shadow: 0px 4px 11.4px 0.6px rgba(0, 0, 0, 0.11); 
+    position: relative;
+    height:60vh;
+   
+
+}
+.imagecommentarea img{
+    border-radius: 50%;
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    right: 4vw;
+}
+
+.commenttitle{
+position: absolute;
+right: 14vw;
+top:10.5vh;
+
+
+}
+.commentarea h3{
+    font-size: 1.5rem;
+}
+
+
+.replyarea{
+position: absolute;
+right: 28vw;
+top:-0.5vh;
+}
+.replyarea a{
+    text-decoration: none;
+    color: black;
+}
+.replyarea a:hover{
+    color: #fd5908;
+}
+.commenttext{
+position: absolute;
+right:14vw;
+top:16vh;
+left: 3vw;
+bottom: 3vh;
+
+}
+/* =========================pricebar */
+.pricebararea{
+    width:18vw;
+    text-align: center;
+}
+
+/* ======================== sider area */
+
+.sliderarea{
+    background-color: #29292b;
+    text-align: center;
+}
+
+.formareasinglehome input[type="text"]{
+width:18vw;
+height: 6vh;
+margin: 5vh 0 2vh 0;
+}
+.formareasinglehome select{
+    width:18vw;
+    height: 6vh;
+    margin: 2vh 0;
+}
+.checkboxhome{
+ text-align: right;
+ margin-right:5vw;
+
+}
+.checkboxhome input[type="checkbox"]{
+    width:17px;
+    height:17px;
+    margin-top: 2vh;
+    
+    
+}
+.checkboxhome label{
+    margin-right: 0.75vw;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 2vh;
+}
+
+.Facilitiesbutton button{
+    background-color: #29292b;
+    width: 15vw;
+    border: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.searchsinglehome button{
+    width: 18vw;
+    background-color:#fd5908 ;
+    color: #ffffff;
+    border: none;
+    margin: 2vh 0;
+    height: 6vh;
+}
+.searchsinglehome button:hover{
+    background-color:#d44b07;
+   
+   
+}
+
+/* ===================comment area */
+
+.writecomment{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    padding: 2vw;
+    margin-top: 3vh;
+    margin-right: -0.7vw;
+    box-shadow: 0px 4px 11.4px 0.6px rgba(0, 0, 0, 0.11); 
+   
+}
+
+.writecomment input{
+    outline: none;
+    width: 22vw;
+    float: right;
+    border: #dde0df 1px solid;
+    border-bottom:#969a9a 1px solid ;
+    height: 7vh;
+    margin: 0.7vh 0 2vh 0;
+}
+
+.writecomment input[id="descriptionarea"]{
+    outline: none;
+    width: 45.7vw;
+    float: right;
+    border: #dde0df 1px solid;
+    border-bottom:#969a9a 1px solid ;
+    height: 20vh;
+    margin: 0.7vh 0.8vw 2vh 0;
+}
+
+.writecomment input[id="submitcomment"]{
+    outline: none;
+    width: 22vw;
+    float: right;
+    background-color:#fd5908 ;
+    margin: 0.7vh 0.8vw 2vh 0;
+    /* text-align: center; */
+    margin: auto;
+    padding: auto;
+    color: #ffffff;
+    border: none;
+    font-size: 1.1rem;
+}
+.writecomment input[id="submitcomment"]:hover{
+    background-color: #d44b07;
+}

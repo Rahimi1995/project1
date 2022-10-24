@@ -1,0 +1,613 @@
+/**
+*
+*	Name:			IRAN Sans-Serif Font
+*	Version:		5.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Dec 25, 2012
+*	Updated on:		Sep 01, 2017
+*	Website:		             http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*	
+**/
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('/src/assets/fonts/eot/IRANSansWeb.eot');
+	src: url('/src/assets/fonts/eot/IRANSansWeb_Black.eot') format('embedded-opentype'),  /* IE6-8 */
+		 url('/src/assets/fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/src/assets/fonts/woff/IRANSansWeb_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/src/assets/fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('/src/assets/fonts/eot/IRANSansWeb_Bold.eot');
+	src: url('/src/assets/fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/src/assets/fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/src/assets/fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/src/assets/fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('/src/assets/fonts/eot/IRANSansWeb_Medium.eot');
+	src: url('/src/assets/fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/src/assets/fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/src/assets/fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/src/assets/fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('/src/assets/fonts/eot/IRANSansWeb_Light.eot');
+	src: url('/src/assets/fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/src/assets/fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/src/assets/fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/src/assets/fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('/src/assets/fonts/eot/IRANSansWeb_UltraLight.eot');
+	src: url('/src/assets/fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/src/assets/fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/src/assets/fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/src/assets/fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('/src/assets/fonts/eot/IRANSansWeb.eot');
+	src: url('/src/assets/fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/src/assets/fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/src/assets/fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/src/assets/fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: IRANSans !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+}
+
+
+code {
+  font-family: IRANSans !important;
+}
+.mainheader-m{
+  background:#20201b;
+  height: 5vh;
+  position: relative;
+  width: 100vw;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
+}
+.modal{
+  display: none;
+}
+
+.btnheader{
+  color: #ffffff;
+  background: none;
+  border: none;
+  margin-top: 8px;
+  
+ 
+}
+.logoarea-m{
+  float: left;
+  margin-right: 70px ;
+  padding: none;
+}
+.iconarea-m button{
+  background-color: #20201b;
+  border: none;
+  margin: 0.5vh 1vw 0vw 6vw;;
+  font-size: 3vw;
+
+  
+}
+
+.logoarea-m img {
+width: 11vw;
+margin: -2.4vh 2vw 0vw 6vw;;
+float: left;
+
+
+}
+.loginarea-m{
+  position: fixed;
+  top:0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+
+
+/* ========== searcharea */
+.searcharea-m{
+  height: 6.5vh;
+  /* text-align: center; */
+  background: #282823;
+  /* position: absolute; */
+  top: 42vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  text-align: center;
+  
+}
+.formarea-m{
+   /* width:100vw; */
+  display: inline-block;
+  margin-top: 0.7vh; 
+  
+
+  
+
+  
+}
+.formarea-m button{
+  background-color:#282823 ;
+  color: #c5c3c3;
+  border: none;
+  /* margin-left: 0.5vw; */
+ 
+}
+.formarea-m button:hover{
+  color:#fd5908 ;
+}
+.formarea-m input[type=text]{
+ width: 20vw;
+  padding: 5px;
+  border-radius: 1px;
+  
+  outline: none;
+  color:#8b8888;
+  height: 7vh; 
+ 
+  border: none;
+    outline: none;
+    color: #8b8888;
+    border-radius: 1px;
+    width: 70vw;
+    /* margin: 0 0 0 1vw; */
+    padding: 0.55vw;
+    background-color:#f6f6f7 ;
+    height: 5vh;
+  font-size: 0.8rem;
+  
+ 
+}
+
+.formarea-m select{
+  border: none;
+  outline: none;
+  color:#8b8888;
+  border-radius: 1px;
+  width: 15vw;
+  margin: 0 0 0 1vw;
+  padding: 0.45vw;
+
+ 
+}
+.formarea-m select[name=home]{
+ 
+}
+
+.formarea-m input[type=submit]{
+  width: 8vw;
+  border: none;
+  height: 5.7vh; 
+  background: #ffffff;
+  background: #fd5908;
+  color: #ffffff;
+  margin: 0 0 0 1vw;
+  
+  
+}
+.formarea-m input[type=submit]:hover{
+  background: #d44b07;
+  color: #ffffff;
+  
+}
+/* ========== advance search */
+.Advancesearch-m{
+ background-color:#282823 ;
+ z-index: 200;
+ width: 100vw;
+ margin-top:-2vh;
+ text-align: center;
+ 
+
+  
+}
+.Advancesearch-m form{
+  
+  /* margin-left: 0.5vw; */
+ 
+}
+.Advancesearch-m form button{
+  background-color:#282823 ;
+  border: none;
+  color:#fd5908;
+  width: 23vw;
+  font-size: 0.7rem;
+  
+}
+.Advancesearch-m form button:hover{
+  color: #ffffff;
+}
+.Advancesearch-m label{
+  color:#ffffff ;
+  font-size: 0.7rem;
+}
+.Advancesearch-m select {
+  border: none;
+  outline: none;
+  color:#8b8888;
+  border-radius: 1px;
+  width: 21.5vw;
+  margin: 0 0 3.5vh 1vw;
+  padding: 0.45vw;
+  font-size: 0.8rem;
+}
+
+
+.Facilities-m input[type="checkbox"]{
+
+margin-left:1vw;
+width:12px;
+height:12px;
+/* margin-right: 3vw; */
+}
+
+
+.Facilities-m {
+  display: flex;
+  flex-wrap: nowrap;
+  /* background-color: DodgerBlue; */
+  justify-content: center;
+  background-color:#282823 ;
+  z-index: 100;
+  /* text-align: center; */
+  background: #282823;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  
+  
+}
+.Facilities-m > div {
+  width: 33vw;
+  text-align: right;
+  line-height: 6vh;
+  font-size: 0.90rem;
+  background-color: #282823;
+  color: #ffffff;
+  margin-left: 12vw;
+
+  
+}
+
+
+
+/* ======= carousel */
+.carousel-m{
+  z-index: -100;
+  position:relative;
+  width: 100vw;
+  
+}
+.carousel-control-prev .control-prev-icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  /* background-repeat: no-repeat; */
+  background-position: 50%;
+  background-size: 100% 100%;
+}
+
+.carousel-m .carousel-caption{
+  width: 80vw;
+ /* margin-right: -3vw; 
+  margin-bottom: 20vh; */
+ /* margin-top: 2vh; */
+ top:2vh;
+ right: 0;
+ left: 0;
+ margin-left:auto;
+
+margin-right:auto;
+ position: absolute;
+ 
+ 
+  
+
+ 
+ 
+
+
+ 
+}
+.carousel-m .carousel-caption h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+  /* margin-top: 5vh; */
+
+}
+.carousel-m .carousel-caption p{
+  font-size: 0.6rem;
+}
+
+.Footerpart{
+  background:#20201b;
+  color: #ffffff;
+}
+
+.Logomenu{
+  background: #ffffff;
+  opacity: 50;
+  display: none;
+  position: fixed;
+}
+.logform{
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  height: 100vh;
+  background: #f7f7f7;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 30px;
+    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.18);
+    display: none;
+  
+}
+.cardpardone{
+ /* border-bottom: solid 1px #bbbaba; */
+ /* z-index: -100; */
+}
+
+/* .card-m .card{
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 23vw;
+  border-style: solid;
+  border-radius: 30px;
+  box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
+  border: none;
+  margin-bottom:20px ;
+} */
+.card:hover{
+    box-shadow: 0px 4px 14.24px 1.76px rgba(0, 0, 0, 0.24);
+  }
+
+
+.Card.Header{
+  background-color: #ffffff;
+  height: 5vh;
+}
+
+
+.card .pricecard-m{
+  float: right;
+  /* /* margin-right: 0.6vw; */
+  margin-top:0.70vh; 
+  font-size: 1.3rem;
+  color: #fd5908;
+  font-weight: bold;
+}
+.card .iconcardarea-m{
+  float: left;
+  margin-top: 0.70vh;
+  margin-left: -0.5vw;
+  
+}
+.iconcardarea-m button{
+  border: none;
+  background-color: #ffffff;
+
+}
+.sharecard{
+
+}
+.sharecardarea-m{
+    background-color:#fd5908 ;
+    color: #ffff;
+    margin: 0vw 1.3vw;
+    width: 2.5vw;
+    height: 15vh;
+    border-radius: 3px;
+    text-align: center;
+    
+    
+}
+.sharecardarea-m::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-bottom-color: #fd5908;
+    border-top: 0;
+    margin-left: -7px;
+    margin-top: -5px;
+  }
+.iconcardarea .sharecardarea-m{
+ z-index: 100;
+ position: absolute;
+
+}
+.sharecardarea-m a{
+  font-size: 1.3rem;
+
+}
+
+.sharecardarea-m:hover{
+  color:#fd5908 ;
+}
+.cardpart-m{
+   
+  margin-left: 5vw;
+  margin-right: 5vw;
+  
+  
+
+  
+  
+  z-index: -1;
+  
+}
+.cardpardone-m h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 7vh;
+  font-size: 1.4rem;
+  font-weight:500 ;
+
+}
+.cardpardone-m p{
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-right: 3vw;
+}
+.card-body{
+  /* padding:3vw; */
+  margin:0.5vw 0 0 0 ;
+}
+.card-footer{
+  margin:0.5vw ;
+ 
+}
+
+.headercardarea-m{
+  z-index: 100;
+}
+.sliderareapart{
+margin: 10px 0px;
+/* z-index: -1; */
+}
+.sliderareapart .card{
+  box-shadow: none;
+  margin-right: -10px;
+}
+.sliderareapart .card-text{
+text-align: right;
+float: right;
+direction: rtl;
+}
+.sliderareapart .card-body{
+  direction: rtl;
+}
+.sliderareapart .card-footer{
+  direction: rtl;
+}
+.slick-slide{
+  direction: rtl;
+  margin: 10px 0px;
+  padding: 25px;
+}
+
+
+
+/* ===================footer */
+.Footerpart-m{
+    background:#20201b;
+    color: #ffffff;
+    margin-top:2vh;
+    width: 100vw;
+  
+}
+
+.Footerpart-m .about-m{
+  padding: 2vw 0;
+  font-size:0.90rem;
+  font-weight: lighter;
+  /* text-align: justify; */
+  text-justify: inter-word
+}
+.about-m h3{
+  font-size: 1.5rem;
+  margin-bottom: 2.5vh;
+}
+.Footerpart-m .contactus-m{
+  padding: 2vw 0;
+  font-size:0.90rem;
+  font-weight: lighter;
+  margin-right: 2.5vw;
+}
+.contactus-m .iconphone{
+  border-radius: 5px;
+  
+}
+.contactus-m h3{
+  font-size: 20px;
+  margin-bottom: 2.5vh;
+}
+
+.Footerpart-m .newsarea{
+  padding: 2vw 0;
+  font-size:0.90rem;
+  font-weight: lighter;
+}
+.newsarea-m h3{
+  font-size: 20px;
+  margin-bottom: 2.5vh;
+}
+
+
+.Footerpart-m .formnews-m input[type=text]{
+  background: #363632;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 50vw;
+
+}
+.Footerpart-m .formnews-m button[type=submit]{
+  background: #fd5908;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 8px;
+  color: #ffffff;
+}
+.newsarea-m img{
+  margin-left: auto;
+  margin-right:auto ;
+}
+
+
+
+

@@ -1,0 +1,372 @@
+.sidarea{
+    background: #20201b;
+    width: 15vw;
+    height: 100vh;
+    position: relative;
+  
+}
+.imgearea img{
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    padding: auto;
+    margin: auto;
+    position: absolute; 
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    top:2vw;
+
+}
+.imgearea p{
+    color: #ffffff;
+    top:12vw;
+    position:absolute ;
+    text-align: center;
+    left: 0vw;
+    right: 0vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.navarea {
+    position:absolute ;
+    top:16vw;
+  
+
+}
+.FaAngleLeft{
+    color: chocolate;
+}
+.navarea ul{
+    margin: 0px;
+    padding: 0px;
+    width: 20vw;
+    
+}
+.navarea ul li{
+    list-style-type: none;
+    padding: 5px 0px;
+   
+}
+
+.navarea ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+   padding: 0.4vw;
+   
+   
+    
+}
+
+/* .navarea ul li a addproject{
+    width: 30vw;
+    
+} */
+
+.navarea ul li ul{
+    display: none;
+    transition:10s;
+   
+}
+.navarea ul li ul a{
+    margin-right: 1vw;
+}
+.navarea ul li:hover>ul{
+    display: block;
+    padding: 5px 0px;
+    transition-delay: 5s;
+}
+.naveoption{
+    width: 15vw;
+    position: relative;
+    padding: 0.2vw;
+   
+}
+.naveoption:hover{
+    background:#fe5806;
+    
+    /* padding: 0.5vw; */
+}
+/* .naveoptiond{
+    width: 15vw;
+    position: absolute;
+    right: -2vw;
+}
+.naveoptiond:hover{
+    background:#fe5806;
+} */
+.personarea{
+
+}
+
+
+.contentarea {
+    /* background-color: DodgerBlue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.contentarea > div {
+    /* background-color: #f1f1f1; */
+    width: 35vw;
+    margin: 10px;
+    text-align: center;
+    font-size: 1rem;
+  }
+.personarea input{
+ outline: none;
+ width: 20vw;
+ float: right;
+ border: #dde0df 1px solid;
+ border-top: #969a9a 1px solid;
+ height: 7vh;
+ margin: 0.7vh 0 2vh 0;
+  }
+.personarea label{
+float: right;
+text-align: right;
+  }
+
+  .personareat input{
+    outline: none;
+    width: 20vw;
+    float: right;
+    border: #dde0df 1px solid;
+    border-top: #969a9a 1px solid;
+    height: 7vh;
+    margin: 0.7vh 0 2vh 0;
+     }
+   .personareat label{
+   float: right;
+   text-align: right;
+     }
+.locarea select{
+    outline: none;
+    width: 20vw;
+    float: right;
+    height: 6vh;
+    border: #dde0df 1px solid;
+    margin: 0.7vh 0 2vh 0;
+}
+.locarea label{
+    float: right;
+    text-align: right;
+      }
+.localarea1 select{
+        outline: none;
+        width: 20vw;
+        float: right;
+        height: 6vh;
+        border: #dde0df 1px solid;
+        margin: 0.7vh 0 2vh 0;
+    }
+.localarea1 label{
+        float: right;
+        text-align: right;
+          }
+.Buldingarea input[type="checkbox"]{
+    width:20px;
+    height:20px;
+    float: right;
+    margin: 0vh 0 3px 0;
+  
+}
+.Buldingarea label{
+    float: right;
+    text-align: right;
+    margin-right: 0.80vw;
+}
+
+.Buldingarea1 input[type="checkbox"]{
+    width:20px;
+    height:20px;
+    float: right;
+    margin: 0vh 0 3px 0;
+  
+}
+.Buldingarea1 label{
+    float: right;
+    text-align: right;
+    margin-right: 0.80vw;
+}
+
+.buldinginformation input{
+    outline: none;
+    width: 20vw;
+    float: right;
+    border: #dde0df 1px solid;
+    border-top: #969a9a 1px solid;
+    height: 7vh;
+    margin: 0.7vh 0 2vh 0;
+     }
+   .buldinginformation label{
+   float: right;
+   text-align: right;
+     }
+
+
+     .buldinginformation1 input{
+        outline: none;
+        width: 20vw;
+        float: right;
+        border: #dde0df 1px solid;
+        border-top: #969a9a 1px solid;
+        height: 7vh;
+        margin: 0.7vh 0 2vh 0;
+         }
+       .buldinginformation1 label{
+       float: right;
+       text-align: right;
+         }
+
+         .locationarea input{
+            outline: none;
+            width: 80vw;
+            float: right;
+            border: #dde0df 1px solid;
+            border-top: #969a9a 1px solid;
+            height: 15vh;
+            margin: 0.7vh 0 2vh 0;
+             }
+           .locationarea label{
+           float: right;
+           text-align: right;
+             }
+
+
+
+/* page add category */
+
+.Addcategory{
+    border-bottom: 1px #969a9a solid ;
+    margin-top:2vw;
+}
+.Addcategoryform{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+   
+}
+.Tablecategory{
+    border-bottom: 1px #969a9a solid ;
+    margin-top:2vw;
+}
+.Tablecategory1 table{
+    margin-top: 2vw;
+    width: 60vw;
+    /* border-collapse:collapse; */
+    border:1px solid #969a9a;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Tablecategory1 table th{
+    background-color: #dde0df;
+    padding:0.5vw;
+    text-align: center;
+    border:1px solid #969a9a;
+}
+.Tablecategory1 table tr{
+    background-color: #f7f8f8;
+    padding:1vw;
+    border:1px solid #969a9a;
+    
+}
+.Tablecategory1 table td{
+    padding:0.4vw;
+    text-align: center;
+    border:1px solid #969a9a;
+
+}
+.Tablecategory1 table tr button{
+    outline: none;
+    background-color: #ffffff;
+    border: none;
+    width: 6vw;
+    border-radius: 8px;
+    box-shadow: 0px 0px 22.8px 1.2px rgba(0, 0, 0, 0.06);
+    margin-left: 1vw;
+       
+    
+
+}
+.Tablecategory1 table tr button:hover{
+    background-color: #fd5908;
+    color: #ffffff;
+}
+.Addcategoryform form input[type=text]{
+    outline: none;
+    width: 18vw;
+    border: #dde0df 1px solid;
+    border-top: #969a9a 1px solid;
+    height: 6vh;
+    
+}
+.Addcategoryform form input[type=submit]{
+    outline: none;
+    height: 6vh;
+    border: none;
+    border-radius: 3px;
+}
+.Addcategoryform form input[type=submit]:hover{
+    background-color: #fd5908;
+    color: #ffffff;
+}
+
+
+
+/* ======== viewpage */
+.viewproject{
+    border-bottom: 1px #969a9a solid ;
+    margin-top:2vw;
+}
+.searcharea1{
+   display: flex;
+   justify-content: center;
+   margin-top: 3vw;
+}
+
+.searcharea1 input{
+    outline: none;
+    width: 15vw;
+    float: right;
+    border: #dde0df 1px solid;
+    height: 6vh;
+    margin: 0.7vh 0 2vh 0;
+    margin-left: 0.75vw;
+}
+.searcharea1 select{
+    outline: none;
+    width: 15vw;
+    float: right;
+    border: #dde0df 1px solid;
+    height: 6vh;
+    margin: 0.7vh 0 2vh 0;
+}
+.searcharea1 button{
+    border: none;
+    margin-right: 0.75vw;
+    height: 6vh;
+    width: 6vh;
+    margin: 0.7vh 0.75vw 2vh 0;
+    border-radius: 2px;
+    /* color: #ffffff; */
+}
+.searcharea1 button:hover{
+    background-color:#fd5908;
+    color: #ffffff;
+}
+.steparrow{
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+.steparrow:active{
+    background: #969a9a;
+}
+.steparrow:hover{
+
+}

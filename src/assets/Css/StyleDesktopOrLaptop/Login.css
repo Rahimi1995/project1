@@ -1,0 +1,94 @@
+
+.loginform{
+    background-color: #29292b;
+    width: 30vw;
+    height: 30vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    /* border-radius: 10px; */
+    box-shadow: 0px 25px 79.8px 4.2px rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    
+    
+    
+    
+}
+.loginform button{
+    border: none;
+    background-color: #fd5908;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.loginform{
+    text-align: center;
+}
+.logintext{
+    background-color:#fd5908 ;
+}
+
+.logintext h2{
+    /* padding-top: 2vw; */
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #ffffff;
+    
+}
+.loginrem{
+    margin-top: 2vw;
+}
+.loginrem label{
+    font-size: 1.1rem;
+    color: #bfbfbf;
+    
+    
+    
+}
+.loginrem a{
+    direction: none;
+    color:#bfbfbf;
+    text-decoration: none;
+    padding-right: 3vw;
+    
+}
+.loginrem a:hover{
+    color: #fd5908;
+}
+.loginrem input[type=text]{
+    outline: none;
+    width: 18vw;
+    float: right;
+    border: #dde0df 1px solid;
+    border-top: #969a9a 1px solid;
+    height: 6vh;
+    margin: 0.7vh 0 2vh 0;
+    font-size: 1rem;
+    background-color: #dde0df;
+}
+.loginrem input[type=password]{
+    outline: none;
+    width: 18vw;
+    float: right;
+    border: #dde0df 1px solid;
+    border-top: #969a9a 1px solid;
+    height: 6vh;
+    margin: 0.7vh 0 2vh 0;
+    font-size: 1rem;
+    background-color: #dde0df;
+}
+.loginrem button[type=submit]{
+    outline: none;
+    width: 15vw;
+    background-color:#dde0df ;
+    height: 5vh;
+    border: none;
+    border-radius: 3px;
+    margin-top: 2vw;
+}
+.loginrem button[type=submit]:hover{
+    background-color:#fd5908 ;
+    color: #ffffff;
+}
+.loginrem input[type=checkbox]{
+ padding: 5px;
+}
